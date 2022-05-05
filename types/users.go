@@ -16,3 +16,8 @@ type CreditCards struct {
 	ExpireTime     string
 	SecurityPin    int
 }
+
+type MainCard struct {
+	Id      int    `json:"id"`
+	Country string `json:"country"`
+}
