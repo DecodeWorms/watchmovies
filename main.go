@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 	"watchmovies/handlers"
@@ -51,5 +52,6 @@ func main() {
 	router.HandleFunc("/users/movies/loveobsess", movies.GetLoveAndObsession).Methods(http.MethodGet)
 
 	log.Fatal(http.ListenAndServe(":8001", router))
+	fmt.Println("hello, world")
 
 }
