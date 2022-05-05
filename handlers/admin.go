@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 	"watchmovies/storage"
 	"watchmovies/types"
@@ -127,5 +128,6 @@ func (s Services) MovieCat(w http.ResponseWriter, r *http.Request) {
 	}
 	json.NewEncoder(w).Encode("Resources are created successfully")
 	json.NewEncoder(w).Encode(num)
+	fmt.Println("hello, world")
 
 }
