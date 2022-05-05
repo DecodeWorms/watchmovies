@@ -25,3 +25,8 @@ type RealCard struct {
 	Id        int     `json:"id"`
 	MaxAmount float32 `json:"max_amount"`
 }
+
+type OutsideCard struct {
+	Id   int    `json:"id"`
+	Name string `json:"name"`
+}
