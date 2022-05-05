@@ -61,5 +61,6 @@ func (u UserHandlers) Login(w http.ResponseWriter, r *http.Request) {
 	}
 	json.NewEncoder(w).Encode("User Logged in successfully")
 	fmt.Println("hello, world")
+	fmt.Println("hello, world2")
 
 }
