@@ -8,3 +8,5 @@ type TokenDetails struct {
 	Aexp         time.Time
 	Rexp         time.Time
 }
+
+type Tkn struct{}
