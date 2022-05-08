@@ -30,3 +30,14 @@ type OutsideCard struct {
 	Id   int    `json:"id"`
 	Name string `json:"name"`
 }
+
+type VerifyCard struct {
+	Id           int    `json:"id"`
+	SerialNumber string `json:"serial_number"`
+	Address      string `json:"address"`
+	Sibling      string `json:"sibling"`
+}
+
+type Thetest struct {
+	Card VerifyCard
+}
