@@ -37,3 +37,7 @@ type VerifyCard struct {
 	Address      string `json:"address"`
 	Sibling      string `json:"sibling"`
 }
+
+type Thetest struct {
+	Card VerifyCard
+}
