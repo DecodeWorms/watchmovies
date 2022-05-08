@@ -27,6 +27,7 @@ type RealCard struct {
 }
 
 type OutsideCard struct {
-	Id   int    `json:"id"`
-	Name string `json:"name"`
+	Id       int    `json:"id"`
+	Name     string `json:"name"`
+	NickName string `json:"nick_name"`
 }
