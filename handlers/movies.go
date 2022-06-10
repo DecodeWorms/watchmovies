@@ -22,6 +22,7 @@ func NewMovie(mv storage.Movie) Movies {
 	}
 }
 
+//GetHollyWood gets hollywood movies
 func (mv Movies) GetHollyWood(w http.ResponseWriter, r *http.Request) {
 	util.SetHeader(w)
 	var err error
