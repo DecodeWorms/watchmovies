@@ -23,6 +23,8 @@ func NewUserHandlers(u storage.UsersStorage) UserHandlers {
 	}
 
 }
+
+//Craete creates a new user
 func (u UserHandlers) Create(w http.ResponseWriter, r *http.Request) {
 	util.SetHeader(w)
 	var user types.Users
