@@ -1,5 +1,7 @@
 package types
 
+//services doc has comment on services
+
 type HollyWood struct {
 	Greetings      string   `json:"greetings"`
 	Title          string   `json:"title"`
